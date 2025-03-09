@@ -18,10 +18,13 @@
             justify-content: center;
             min-height: 100vh;
             color: #333;
-            overflow-x: hidden; /* Evitar el desplazamiento horizontal */
+            overflow-x: hidden;
+            /* Evitar el desplazamiento horizontal */
         }
 
-        h1, h2, p {
+        h1,
+        h2,
+        p {
             margin: 0;
         }
 
@@ -67,7 +70,8 @@
             box-shadow: 0 4px 20px #ffb6c1;
             text-align: center;
             color: #333;
-            overflow: hidden; /* Evitar desplazamiento en contenido */
+            overflow: hidden;
+            /* Evitar desplazamiento en contenido */
         }
 
         .section-title {
@@ -188,7 +192,6 @@
                 font-size: 12px;
             }
         }
-
     </style>
 </head>
 
@@ -206,17 +209,16 @@
         <div id="documentation">
             <h2 class="section-title">¿Qué es WantAPI?</h2>
             <p class="description">
-                WantAPI es una API que ofrece imágenes aleatorias de waifus, personajes y más. Puedes obtener contenido de
-                tres categorías principales: NSFW, SFW (Safe For Work) y Diversión. Utiliza esta API para obtener imágenes
-                tanto seguras para el trabajo como para entretenimiento general, todo de manera sencilla.
+                Want API ofrece imagenes de calidad NSFW, SFW, Diversion. Puedes utilizar la api con al Documentación
+                Oficial o nuestra NPM. Recuerda respetar nuestro Rate Limit.
             </p>
         </div>
 
         <!-- Imagen Aleatoria -->
         <div class="img-container">
-            <h2 class="section-title">Imagen Aleatoria</h2>
             <img id="random-image" src="" alt="Imagen aleatoria">
         </div>
+        <a href="https://cdn.wantapi.xyz/api/Waifus" style="text-align: center; text-decoration: none; font-size: 12px; margin: 0; color: #666;" target="_blank">🟢 API Online</a>
     </div>
 
     <script>
